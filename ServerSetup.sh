@@ -46,8 +46,8 @@ debian_initialize() {
 	$primary_domain
 	EOF
 
-	echo "The System will now reboot!"
-	reboot
+	# echo "The System will now reboot!"
+	# reboot
 }
 
 ubuntu_initialize() {
@@ -88,8 +88,8 @@ ubuntu_initialize() {
 	$primary_domain
 	EOF
 
-	echo "The System will now reboot!"
-	reboot
+	# echo "The System will now reboot!"
+	# reboot
 }
 
 
